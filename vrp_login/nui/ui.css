@@ -10,7 +10,7 @@ div { border: 0; outline: 0; vertical-align: baseline; background: transparent; 
 #actionmenu {
 	top: 50%;
 	left: 50%;
-	/* display: none; */
+	display: none;
 	position: fixed;
 	transform: translate(-50%,-50%);
 }
