@@ -1,0 +1,373 @@
+/* ----------------------------------------------SC_DEV---------------------------------------------------
+ |                      This script was developed by the SC-Dev                                          |
+ |               Contact: lcombat#0264 | Sembenevi#1018   Discord: discord.gg/yb6ZXb4                    |
+--------------------------------------------------------------------------------------------------------- */
+
+
+@import url('https://fonts.googleapis.com/css?family=Syncopate|Unica+One');
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+body, html {
+   overflow-y: hidden;
+   background-color: rebeccapurple;
+}
+/* main.css */
+
+.main{
+   margin-top: -92px;
+   width: 108%;
+}
+
+button{ 
+    color: white;
+    background-color:  transparent;
+    font-family: 'Unica One', cursive;
+	font-size: 18px;
+    margin: 2px auto;
+	padding: 1	px 2px;
+    cursor: pointer;
+	border: none;
+    border-radius: 1px;
+    text-transform: uppercase;
+    width: 36%;
+    height: 6%;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    bottom: -222px;
+
+}
+#Agua{
+	color: white;
+   background-color:  rgba(207, 76, 35, 1.0);
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   opacity: 1.0;
+   border: 2px solid rgb(206, 78, 39);
+   bottom: -125px;
+   transition: all linear .2s;
+}
+
+#Agua:hover{
+   background-color: rgb(204, 93, 59);
+   border: 2px solid rgb(206, 78, 39);
+
+}
+
+
+#Dourado{
+	color: white;
+   background-color:  rgba(207, 76, 35, 1.0);
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   opacity: 1.0;
+   border: 2px solid rgb(206, 78, 39);
+   bottom: -125;
+   transition: all linear .2s;
+}
+
+#Dourado:hover{
+   background-color: rgb(204, 93, 59);
+   border: 2px solid rgb(206, 78, 39);
+
+}
+#Cerveja{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+
+#Taco{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+/* #Vodka{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+} */
+#Donut{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#Conhaque{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#DonutX{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140;
+}
+#Whisky{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140;
+}
+#Hamburguer{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145;
+}
+#Tequila{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145;
+}
+#HotDog{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145;
+}
+#Leite{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -151;
+}
+#Salmao{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 73%;
+   height: 6%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145;
+}
+#Sair{
+	color: white;
+    font-family: 'Unica One', cursive;
+    font-size: 32px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 9%;
+    height: 5%;
+    opacity: 0.8;
+    bottom: 250px;
+    transition: all ease-in-out .1s;
+}
+
+#Sair:hover{
+   color: rgb(218, 105, 71);
+   background-color: transparent;
+   border: transparent;
+}
+
+#Sair:focus{
+   outline-style: none;
+}
+
+.general{
+   font-family: 'Unica One', cursive;
+   width: 500px;
+   height: 500px;
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.432);
+   border-radius: 12px;
+   top: 30%;
+   left: 2%;
+   transition: left linear .5s;
+
+}
+h1{
+	font-family: 'Unica One', cursive;
+	color: white;
+   position: relative;
+   text-align: center;
+   top: 19px;
+}
+
+img{
+    width: 10%;
+    position: relative;
+    top: 30px;
+    left: 217px;
+}
+
+.b{
+	
+	font-family: 'Unica One', cursive;
+	color: black;
+	position: relative;
+	left: 30%;
+	top: 30%;
+}
+
+input[type=text] {
+	position: relative;
+    top: 50px;
+    left: 180px;
+    
+	font-family: 'Unica One';
+    width: 40%;
+    height: 8%;
+    padding: 5px 5px;
+    margin: 40px 0;
+    box-sizing: border-box;
+ 
+	
+}
+
+button:hover{
+	background-color: black;
+	opacity: 1.0;
+}
+
+
+#Cerveja:hover{
+	opacity:1.0
+		}
+			#Taco:hover{
+				opacity:1.0
+				}
+				#Vodka:hover{
+					opacity:1.0
+					}
+					#Donut:hover{
+						opacity:1.0
+						}
+						#Conhaque:hover{
+							opacity:1.0
+							}
+							#DonutX:hover{
+								opacity:1.0
+								}
+								#Whisky:hover{
+									opacity:1.0
+									}
+									#Hamburguer:hover{
+										opacity:1.0
+										}
+										#Tequila:hover{
+											opacity:1.0
+											}
+											#HotDog:hover{
+												opacity:1.0
+												}
+												#Leite:hover{
+													opacity:1.0
+													}
+													#Salmao:hover{
+														opacity:1.0
+														}
+														#Sair:hover{
+															opacity:1.0
+															}
+															
+															
