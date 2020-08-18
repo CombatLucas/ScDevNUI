@@ -1,0 +1,75 @@
+/* ----------------------------------------------SC_DEV---------------------------------------------------
+ |                      This script was developed by the SC-Dev                                          |
+ |               Contact: lcombat#0264 | Sembenevi#1018   Discord: discord.gg/yb6ZXb4                    |
+--------------------------------------------------------------------------------------------------------- */
+
+div { border: 0; outline: 0; vertical-align: baseline; background: transparent; margin: 0; padding: 0; }
+:focus { outline: 0; }
+::selection { background: transparent; }
+
+#actionmenu {
+	top: 50%;
+	left: 50%;
+	/* display: none; */
+	position: fixed;
+	transform: translate(-50%,-50%);
+}
+
+#mainmenu{	
+	width: 848px;
+	padding: 17px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.267);
+
+}
+
+#actionmenu button {
+	background: rgba(20,20,20,0.95);
+	font-size: 15px;
+	font-family: Arial;
+	width: 412px;
+	height: 50px;
+	border: 0;
+	color: #999;
+	/* display: block; */
+	/* margin-top: 10px; */
+	text-align: center;
+	border-radius: 3px;
+	letter-spacing: 0.7px;
+	text-shadow: 1px 1px #000;
+	padding: 0 20px;
+	border-bottom: 1px solid rgba(5,5,5,0.9);
+	transition: all linear .2s;
+}
+
+#actionmenu button:hover {
+	background: rgb(204, 93, 59);
+	color: #fff;
+	border-bottom: 1px solid rgb(206, 78, 39);
+}
+
+.jorge{
+	width: 850px !important;
+	background: rgb(204, 93, 59) !important;
+	color: #fff !important;
+	border-bottom: 1px solid rgb(206, 78, 39) !important;
+}
+
+.jorge:hover{
+	background: rgb(218, 110, 77) !important;
+	border-bottom: 1px solid rgb(209, 87, 50) !important;
+
+}
+
+.divs{
+	display: inline-block;
+    width: 412px;
+    padding: 5px;
+	background-color: rgba(0, 0, 0, 0.438);
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.divs img{
+	max-width: 412px;
+}
